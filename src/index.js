@@ -8,5 +8,7 @@ root.render(
     <div>
       <h1>react</h1>
     </div>
+  
   </React.StrictMode>
 );
+
