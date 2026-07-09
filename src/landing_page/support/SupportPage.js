@@ -1,11 +1,14 @@
 import React from "react";
+import Hero from "./Hero";
+import CreateTicket from "./CreateTicket";
 
-function supportPage() {
+function SupportPage() {
     return (
-        <div>
-            <h1>supportPage</h1>
-        </div>
+        <>
+            <Hero />
+            <CreateTicket />
+        </>
     )
 }
 
-export default supportPage;
+export default SupportPage;

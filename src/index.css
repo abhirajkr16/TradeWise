@@ -15,3 +15,134 @@ code {
 .nav-link {
   margin-left: 40px;
 }
+
+
+
+#supportHero {
+  background-color: #387ed1;
+  color: white;
+  padding: 45px 0 70px;
+}
+
+
+
+#supportHero .container {
+  max-width: 1150px;
+}
+
+
+
+#supportWrapper {
+  margin-bottom: 60px;
+}
+
+#supportWrapper h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#supportWrapper a {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+#supportWrapper a:hover {
+  color: #dbeafe;
+}
+
+
+
+#supportHero h1 {
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#supportHero input {
+  width: 90%;
+  height: 62px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 0 25px;
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+#supportHero input::placeholder {
+  color: #999;
+}
+
+/* Quick Links */
+
+.supportLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  width: 90%;
+}
+
+.supportLinks a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+
+}
+
+.supportLinks a:hover {
+  color: #dbeafe;
+}
+
+
+.featuredHeading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#supportHero ol {
+  padding-left: 22px;
+}
+
+#supportHero li {
+  margin-bottom: 22px;
+}
+
+#supportHero li a {
+  color: white;
+  font-size: 17px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+#supportHero li a:hover {
+  color: #dbeafe;
+}
+
+
+
+@media (max-width: 992px) {
+
+  #supportWrapper {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 15px;
+  }
+
+  #supportHero .row {
+    gap: 50px;
+  }
+
+  #supportHero input {
+    width: 100%;
+  }
+
+  .supportLinks {
+    width: 100%;
+  }
+
+}
